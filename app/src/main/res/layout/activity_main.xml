@@ -21,6 +21,15 @@
             android:text="Sensor data will appear here"
             android:textSize="20sp" />
 
+
     </ScrollView>
 
+    <TextView
+        android:id="@+id/speedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed: 0.00 m/s"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        />
 </LinearLayout>
